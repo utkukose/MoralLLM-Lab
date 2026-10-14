@@ -150,7 +150,7 @@ Downloads use the browser's native save dialog. Filenames follow the pattern `mo
 <a name="modes"></a>
 ## 8. Execution modes
 
-**Cached (default, offline).** 90 hand-authored responses ship inside the HTML file. No API key, no network, fully reproducible. Use this for webinars, offline demos, and teaching.
+**Cached (default, offline).** 90 responses pre-generated with an LLM (Claude) during development ship inside the HTML file. No API key, no network, fully reproducible. Use this for webinars, offline demos, and teaching.
 
 **Live API.** Open Settings (gear icon), switch to Live API mode, pick Anthropic or OpenAI, paste an API key (stored only in `localStorage`, never transmitted except to the provider you pick). Elicit fresh answers for any dilemma — including custom ones. Rebuttals inject the opponent's opening into the prompt so the debate is genuinely cross-referential.
 
